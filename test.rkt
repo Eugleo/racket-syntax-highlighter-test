@@ -37,7 +37,10 @@ and this is still commented
 (#b101 #X2E5LBA #o12277s100)
 
 ; Special numbers
-(+inf.0 Inf.0 NaN.F #I#D+Inf.F+3i)
+(+inf.0 Inf.0 NaN.F #I#D+Inf.F+3i +inf.f-inf.fi)
+
+; Weird numbers
+(#e#x+e#s+e@-e#l-e #x1.2a#### #o#e10)
 
 ; Invalid numbers
 (#b333 #xG11)

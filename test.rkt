@@ -28,7 +28,7 @@ and this is still commented
 #| NUMBERS -------------------------------------------- |#
 
 ; Normal numbers
-(-1 1/2 1.0 2e5 #e1 1.##)
+(-1 1/2 1.0 2e5 3E6 #e1 1.##)
 
 ; Imaginary numbers
 (1+2i 3-10I 1/2+3/4i 1.0-3.0e71i)

@@ -65,10 +65,10 @@ END
 ("\U11552 \123 \xAB" "\" \n \t")
 
 ; Characters
-(#\null #\a #\backspace #\u11AA #\λ)
+(#\null #\NewLine #\a #\backspace #\u11AA #\λ)
 
 ; Invalid characters
-(#\nulll #\NewLine #\back #\u11AAA)
+(#\nulll #\back #\u11AAA)
 
 ; Keywords
 (#:keyword #:2nd-keyword)

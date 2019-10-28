@@ -116,3 +116,20 @@ string"
 
 ; Compiled expression
 #~(complied-expression)
+
+
+#| COMMON RACKET FUNCTIONS ---------------------------- |#
+
+(define (my-plus arg-1 arg-2)
+  (+ arg-1 arg-2))
+
+(struct my-list (head tail) #:keyword-arg arg)
+
+(define-values (a b c) (1 2 3))
+
+(for/fold ([z 0] #:result result-expr)
+  ([i (in-naturals 10)])
+  (+ i z)))
+
+(let ([z 1])
+  (+ z 10))
